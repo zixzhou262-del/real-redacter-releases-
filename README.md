@@ -1,2 +1,23 @@
-# real-redacter-releases-
-ReaL Redacter 是一款面向 macOS 的本地文档脱敏工具，由我根据日常文档处理需求开发。它适合处理访谈纪要、项目材料、研究报告和内部文件，在对外发送或交给其他工具处理前，先把敏感内容替换成可恢复的脱敏标记。  软件支持 Word、Markdown 和 TXT 文档。用户可以识别金额、数字和百分比，也可以填写自定义敏感词。例如在自定义区域输入“苹果”，文档中出现的“苹果”都会被替换成对应的脱敏标记。  整个处理过程都在电脑本地完成。软件不上传文件，不调用外部接口，也不需要注册账号。原始文档、脱敏结果和还原映射文件都保存在用户指定的位置。
+# ReaL Redacter
+
+ReaL Redacter 是一款面向 macOS 和 Windows 的本地离线文档脱敏工具。
+
+软件支持 Word、Markdown 和 TXT 文档，可以识别金额、数字、百分比，也可以填写自定义敏感词。例如在自定义区域输入“苹果”，文档中出现的“苹果”都会被替换成可恢复的脱敏标记。
+
+所有处理都在本机完成，不上传文件、不调用云端 API，也不需要注册账号。
+
+## 下载
+
+- [macOS v2.2.2 安装包](https://github.com/zixzhou262-del/real-redacter-releases-/releases/tag/V2.2.2)
+- [Windows v2.2.3 安装包](https://github.com/zixzhou262-del/real-redacter-releases-/releases/tag/V2.2.3)
+
+## 源代码
+
+- [macOS 源代码](https://github.com/zixzhou262-del/real-redacter-macos)
+- [Windows 源代码](https://github.com/zixzhou262-del/real-redacter-windows)
+
+## 版本说明
+
+- macOS 当前版本：`2.2.2`
+- Windows 当前版本：`2.2.3`
+- 更新日志见 [CHANGELOG.md](CHANGELOG.md)
